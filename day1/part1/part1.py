@@ -1,7 +1,7 @@
 import sys
 sys.path.append('../../')
 from common.fileio import read_input
-from list import extract_numbers
+from common.list import extract_numbers
 
 #data = read_input("test.txt")
 data = read_input("input.txt")
