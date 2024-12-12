@@ -1,4 +1,4 @@
 def read_input(file_name):
     with open(file_name, "r") as input:
-        data = input.readlines()
+        data = [line.strip() for line in input.readlines()]
     return data
